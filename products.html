@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllAtGLance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- First Child -->
+        <nav class="navbar">
+    <div class="logo"><a href="index.html"><img src="images/logo.jpg" class="logo-eye"> </a></div>
+    <div class="search-bar">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="find" onkeyup="search()">
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a href="products.html">Categories</a>
+            <ul class="dropdown-content">
+                <li class="dropdown-submenu">
+                    <a href="#">Men</a>
+                    <ul class="submenu-content">
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="jeans.html">Jeans</a></li>
+                        <li><a href="#">Pants</a></li>
+                        <li><a href="#">Hoodies</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="#">Women</a>
+                    <ul class="submenu-content">
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Sarees</a></li>
+                        <li><a href="#">Salwar Suits</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="jeans.html">Jeans</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="#">Kids</a>
+                    <ul class="submenu-content">
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Shorts</a></li>
+                        <li><a href="#">Cotton Wear</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="#">Brands</a>
+                    <ul class="submenu-content">
+                        <li><a href="#">Levis</a></li>
+                        <li><a href="#">Calvin Klein</a></li>
+                        <li><a href="#">Louis Vuitton</a></li>
+                        <li><a href="#">Allen Solly</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+
+        <!-- Third child -->
+        <div class="bg-light">
+            <h3 class="text-center">Welcome To The Store</h3>
+            <p class="text-center">A platform where you can search all at a glance</p>
+        </div>
+
+        <!-- Fourth child -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Products -->
+                <div class="row">
+
+                    <!-- 1 -->
+
+                    <div class="col-md-3 mb-3 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/t1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Allen Solly Men Tshirt</h5>
+                                <p class="card-text">Regular Fit Polo</p>
+                                <h4 class="card-text"> &#8377;699.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.amazon.in/Allen-Solly-Regular-AMKP317G04249_Jet-Black_XX-Large/dp/B06Y1X1HTM?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1WYWER0W24N8S">Amazon</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/w1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Womens Watch</h5>
+                                <p class="card-text">JOKER & WITCH Women Watch</p>
+                                <h4 class="card-text"> &#8377;699.00</h4>
+                                <p class="card-text"> Buy from: <a href="https://www.myntra.com/watches/joker+%26+witch/joker--witch-women-grey--gold-toned-analogue-watch-amww325/12384756/buy">Myntra</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/s1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Textured Shirts for Men</h5>
+                                <p class="card-text">Plain Shirts for Men</p>
+                                <h4 class="card-text"> &#8377;429.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.amazon.in/dp/B0CLZZD3JZ/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B0CLZZD3JZ&pd_rd_w=LXASW&content-id=amzn1.sym.dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_p=dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_r=X7TZPWZ3AWXGH7F0PW0Q&pd_rd_wg=3PJqb&pd_rd_r=4c305924-d204-45a2-b341-91d6db52304e&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM">Amazon</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/s2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Casual Shirt</h5>
+                                <p class="card-text">Regular Fit Polo</p>
+                                <h4 class="card-text"> &#8377;549.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.amazon.in/Amazon-Brand-Symbol-Regular-AZ-SY-RR-12A-05_Grey_Small/dp/B07KX9XBK2/ref=sr_1_2_sspa?crid=170X142TGFG8I&dib=eyJ2IjoiMSJ9.7XiA8aemwMCutgeMhVmToytn08GzV3bkjW2sB9YURTUrnw5i8FzhCN5H5LUMZKGdGc69axkWZxzbbYt3YyH2ipPiajWmBAjOJzKVTtVUi-BLZ4nxO9GwHiE4TAArD4_bFrxccTaeN4BGeYN-niTRNb70BhYF38cmjEW2APwSFDJiHQnUkePbCjqu-1zt3xHSpkxgnqcl1yGlZ8tVkHUTP1Wa4niFgxEBVr5d92DstxrUTbGV16INdfKdyF4WA8EoKD_zOxB7sOpBB4h3mM_hFKRVruFtuBEbbbdFE4L9Gfo.uEerXCq0SWjqr_9_PXZACmyArEQZnH_v71v5dzFBFnQ&dib_tag=se&keywords=shirt%2Bfor%2Bmen&qid=1717918748&sprefix=shirt%2Caps%2C474&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1">Amazon</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/b2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">SHOE FOR MEN</h5>
+                                <p class="card-text">shoes</p>
+                                <h4 class="card-text"> &#8377;447.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.meesho.com/casual-shoe-for-men/p/65emca">Meesho</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/s4.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Harley</h5>
+                                <p class="card-text">Men Full Sleeves</p>
+                                <h4 class="card-text"> &#8377;499.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.amazon.in/Allen-Solly-Regular-AMKP317G04249_Jet-Black_XX-Large/dp/B06Y1X1HTM?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1WYWER0W24N8S">Meesho</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/p1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Allen Solly Men Tshirt</h5>
+                                <p class="card-text">Regular Fit Polo</p>
+                                <h4 class="card-text"> &#8377;699.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.meesho.com/eyebogler-mens-regular-navy-blue-jeans/p/6w8sj1">Meesho</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- 7 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/p2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Men Beggi Jeans</h5>
+                                <p class="card-text">Regular Fit Polo</p>
+                                <h4 class="card-text"> &#8377;322.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.meesho.com/men-baggy-jeans/p/6srhx1">Meesho</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/b1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Foam Insole Shoes</h5>
+                                <p class="card-text">Red Tape</p>
+                                <h4 class="card-text"> &#8377;1009.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.myntra.com/casual-shoes/red+tape/red-tape-men-memory-foam-insole-sneakers/23410032/buy">Myntra</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/t2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Black T-Shirt</h5>
+                                <p class="card-text">Round Neck</p>
+                                <h4 class="card-text"> &#8377;220.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.meesho.com/latest-mens-printed-typography-round-neck-cotton-blend-black-t-shirt/p/6pid7c">Meesho</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- 9 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/p3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Men Denim white Pants</h5>
+                                <p class="card-text">Regular Fit Polo</p>
+                                <h4 class="card-text"> &#8377;310.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.meesho.com/men-denim-white-pants/p/6b7zrl">Meesho</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- 10 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/p4.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Men Solid Track Pants</h5>
+                                <p class="card-text">Denim</p>
+                                <h4 class="card-text"> &#8377;550.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.meesho.com/men-solid-track-pants/p/6w5ycx">Meesho</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 11 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/w2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Blue Dial Men's Watch </h5>
+                                <p class="card-text">Tommy Hilfiger</p>
+                                <h4 class="card-text"> &#8377;13,599.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.amazon.in/Tommy-Hilfiger-Analog-Blue-Watch-TH1791560/dp/B07MQDR5N8/ref=sr_1_3_sspa?crid=1556EX1I6LBGZ&dib=eyJ2IjoiMSJ9.fGqLCrmCJAuBqELJSYXRh-uiYmXHpwrE0Q4RmDOVgnUgijNKl63bB2FXve5aspsQ0sBwifRxdTUm7EGqjFjg4rb0s_7McdQwgPSOQko2yWoa_U6sRztK-9AcLgucrRw2lZQjiI3iuV1HgZcP7WvHoCNnxnwoC_kWhwq9ihPZ6UE9auVdIhUKt8UiwTA3qGV22yqZ_kf2cFBF3jfBH86AEITEomJUb0NsqaRsQifOkeq18wPUQy5RVSxbdEsH72HKWVJSZWBOS-v4lE6EpOEmMsNjdrellKC9S_4t8LAU0cI.lzdgumPzXeO0_WdpkZLcXb33Rl-55BcgKcPiRGyFaXI&dib_tag=se&keywords=watches+for+men&qid=1717927962&sprefix=watch%2Caps%2C710&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Amazon</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 11 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/b3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Casual Sneaker Shoes</h5>
+                                <p class="card-text">Tops For Men </p>
+                                <h4 class="card-text"> &#8377;737.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.flipkart.com/asian-casual-sneaker-shoes-men-soft-cushioned-insole-moscow-12-high-tops-men/p/itm64ee557a74f9d?pid=SHOGXZKNZVJSRZ6P&lid=LSTSHOGXZKNZVJSRZ6PP98JMO&marketplace=FLIPKART&q=shoes+for+men&store=osp%2Fcil&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&fm=search-autosuggest&iid=c97f8cb6-0f6e-4b9a-ac23-f0a50aa7c320.SHOGXZKNZVJSRZ6P.SEARCH&ppt=sp&ppn=sp&qH=9b802224ae37096b">FlipKart</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <!-- 12 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/p5.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Fit Washed Jeans</h5>
+                                <p class="card-text">Non-Stretchable</p>
+                                <h4 class="card-text"> &#8377;1091.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.meesho.com/urbano-fashion-mens-grey-loose-fit-washed-jeans-non-stretchable/p/6h1h56">Meesho</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 13 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/n1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Nail Polish</h5>
+                                <p class="card-text">ELLE 18 </p>
+                                <h4 class="card-text"> &#8377;51.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.myntra.com/nail-polish/elle+18/elle-18-nail-pops-nail-polish-5ml---shade-08/13698486/buy">Myntra</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                     
+                     <!-- 14 -->
+
+                    <div class="col-md-3 mb-2 product">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/t3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">White T-Shirt</h5>
+                                <p class="card-text">Regular Fit Polo</p>
+                                <h4 class="card-text"> &#8377;263.00 </h4>
+                                <p class="card-text"> Buy from: <a href="https://www.flipkart.com/trx-solid-men-round-neck-white-t-shirt/p/itmed6b1c7d87a90?pid=TSHGWFMCRUPABJH8&lid=LSTTSHGWFMCRUPABJH8VWAHCE&marketplace=FLIPKART&q=tshirts+for+men&store=clo%2Fash%2Fank%2Fedy&srno=s_1_21&otracker=AS_Query_OrganicAutoSuggest_2_8_sc_na_na&otracker1=AS_Query_OrganicAutoSuggest_2_8_sc_na_na&fm=search-autosuggest&iid=en_7mu4DQjRM7TQ6PeWCnszCDhxjT0pWM2cPksaDBWcTWOXp74nm3wZh8ggUjhY7JN6TSiC66w04gQvvOQiEcW6_w%3D%3D&ppt=sp&ppn=sp&qH=314c11a226d7cd83">FlipKart</a></p>   
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                           
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="home"></section>
+
+    <script type="text/javascript">
+
+        function search() {
+            let filter = document.getElementById('find').value.toUpperCase();
+            let items = document.querySelectorAll('.product');
+            items.forEach(item => {
+                let productName = item.getElementsByTagName('h5')[0].innerText.toUpperCase();
+                if (productName.indexOf(filter) > -1) {
+                    item.style.display = "";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        }
+    </script>
+        <div class="d-flex flex-row col-12 justifty-content-center below-cont">
+            <div class="col-1"></div>
+            <div class="col-3  ">
+                <h3>About US</h3>
+                <ul type="none">
+                    <li>This comapny is About</li>
+                    <li>shopping from the multi websites</li>
+                </ul>
+            </div>
+            <div class="col-3  ">
+                <h3>Contact Us</h3>
+                <ul type="none">
+                    <li><i class="fa-regular fa-envelope"></i>: AllataGlance@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i> :+918008191065</li>
+    
+                </ul>
+            </div>
+            <div class="col-3  ">
+                <h3>More Shopping</h3>
+                <ul type="none">
+                    <li>Dress</li>
+                    <li>Moblies</li>
+                    <li>Footwear</li>
+                    <li>Watches</li>
+    
+                </ul>
+            </div>
+            <div class="col-2  "> 
+                <h3>Get touch</h3>
+                <ul type="none">
+                    <li><i class="fa-brands fa-instagram"></i>  Intsagram</li>
+                    <li> <i class="fa-brands fa-facebook"></i>    Facebook</li>
+                    <li> <i class="fa-brands fa-twitter"></i>  Twitter</li>
+                </ul>
+            </div>   
+         </div>
+        
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 All at a Glance. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

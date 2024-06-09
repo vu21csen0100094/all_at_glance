@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <title>Home</title>
+</head>
+<nav class="navbar">
+    <div class="logo"><a href="index.html"><img src="images/logo.jpg" class="logo-eye"> </a></div>
+    <div class="search-bar">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="find" onkeyup="search()">
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a href="products.html">Categories</a>
+            <ul class="dropdown-content">
+                <li class="dropdown-submenu">
+                    <a href="#">Men</a>
+                    <ul class="submenu-content">
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="jeans.html">Jeans</a></li>
+                        <li><a href="#">Pants</a></li>
+                        <li><a href="#">Hoodies</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="#">Women</a>
+                    <ul class="submenu-content">
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Sarees</a></li>
+                        <li><a href="#">Salwar Suits</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="jeans.html">Jeans</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="#">Kids</a>
+                    <ul class="submenu-content">
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Shorts</a></li>
+                        <li><a href="#">Cotton Wear</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="#">Brands</a>
+                    <ul class="submenu-content">
+                        <li><a href="#">Levis</a></li>
+                        <li><a href="#">Calvin Klein</a></li>
+                        <li><a href="#">Louis Vuitton</a></li>
+                        <li><a href="#">Allen Solly</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+    <script src="home.js"></script>
+
+
+      <div class="d-flex flex-column justifty-content-center  mt-3">
+    <div class="row col-12 mb-5">
+        <div class="col-3 card c1 mx-4">
+            
+            <h1>Shirts</h1>
+        </div>
+
+
+        <div class="col-5"><div id="search">
+            <svg viewBox="0 0 420 60" xmlns="http://www.w3.org/2000/svg">
+                <rect class="bar"/>
+                
+                <g class="magnifier">
+                    <circle class="glass"/>
+                    <line class="handle" x1="32" y1="32" x2="44" y2="44"></line>
+                </g>
+        
+                <g class="sparks">
+                    <circle class="spark"/>
+                    <circle class="spark"/>
+                    <circle class="spark"/>
+                </g>
+        
+                <g class="burst pattern-one">
+                    <circle class="particle circle"/>
+                    <path class="particle triangle"/>
+                    <circle class="particle circle"/>
+                    <path class="particle plus"/>
+                    <rect class="particle rect"/>
+                    <path class="particle triangle"/>
+                </g>
+                <g class="burst pattern-two">
+                    <path class="particle plus"/>
+                    <circle class="particle circle"/>
+                    <path class="particle triangle"/>
+                    <rect class="particle rect"/>
+                    <circle class="particle circle"/>
+                    <path class="particle plus"/>
+                </g>
+                <g class="burst pattern-three">
+                    <circle class="particle circle"/>
+                    <rect class="particle rect"/>
+                    <path class="particle plus"/>
+                    <path class="particle triangle"/>
+                    <rect class="particle rect"/>
+                    <path class="particle plus"/>
+                </g>
+            </svg>
+            <input type="button" name="q" aria-label="Search for inspiration" placeholder="All at a Glance..." value="All at a Glance..." onclick="window.location.href='products.html';" />
+            </div>
+        
+        <div id="results">
+            
+        </div>
+    </div>
+        <div class="col-3 card  mx-4">
+
+            <h1> T-Shirts</h1></div>
+
+    </div>
+    <div class="d-flex flex-row col-12 justifty-content-center">
+        <div class="col-1"></div>
+        <div class="col-2 card c2 m-3"><a href="#"><h1>Sarees</h1></a></div>
+        <div class="col-2 card c3 m-3"><a href="#"><h1>Hoodies</h1></a></div>
+        <div class="col-2 card c4 m-3"> <a href="jeans.html"><h1>Jeans </h1></a></div>
+        <div class="col-2 card c5 m-3"> 
+            <a href="#"><h1>Shoes</h1></a>
+        </div>
+
+
+
+  
+    </div>
+
+      </div>
+<h1 class="px-4"> Explore the Site's</h1>
+      <div class="d-flex flex-row col-12 justifty-content-center">
+       <div class="col-1"></div>
+       <div class="col-md-3 card1 c21 m-3"> <a href="https://www.amazon.in/" ><img class="ias" src="./images/4.png"></a></div>
+        <div class="col-md-3 card1 c31 m-3"><a href="https://www.flipkart.com/"><img class="ias" src="./images/4.png"></a></div>
+        <div class="col-md-3 card1 c41 m-3"><a href="https://www.ajio.com/"><img class="ias" src="./images/4.png"></a></div>
+
+  
+    </div>
+    <div class="d-flex flex-row col-12 justifty-content-center">
+        <div class="col-1"></div>
+        <div class="col-3 card1 c51 m-3"><a href="https://www.myntra.com/"><img class="ias" src="./images/4.png"></a></div>
+        <div class="col-3 card1 c61 m-3"><a href="https://www.sopify.com/"><img class="ias" src="./images/4.png"></a></div>
+           <div class="col-3 card1 c71 m-3"><a href="https://www.meesho.com/"><img class="ias" src="./images/4.png"></a></div>
+ 
+   
+     </div>
+   
+    
+    <div class="d-flex flex-row col-12 justifty-content-center below-cont">
+        <div class="col-1"></div>
+        <div class="col-3  ">
+            <h3>About US</h3>
+            <ul type="none">
+                <li>This comapny is About</li>
+                <li>shopping from the multi websites</li>
+            </ul>
+        </div>
+        <div class="col-3  ">
+            <h3>Contact Us</h3>
+            <ul type="none">
+                <li><i class="fa-regular fa-envelope"></i>: AllataGlance@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i> :+918008191065</li>
+
+            </ul>
+        </div>
+        <div class="col-3  ">
+            <h3>More Shopping</h3>
+            <ul type="none">
+                <li>Dress</li>
+                <li>Moblies</li>
+                <li>Footwear</li>
+                <li>Watches</li>
+
+            </ul>
+        </div>
+        <div class="col-2  "> 
+            <h3>Get touch</h3>
+            <ul type="none">
+                <li><i class="fa-brands fa-instagram"></i>  Intsagram</li>
+                <li> <i class="fa-brands fa-facebook"></i>    Facebook</li>
+                <li> <i class="fa-brands fa-twitter"></i>  Twitter</li>
+            </ul>
+        </div>   
+     </div>
+    
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 All at a Glance. All rights reserved.</p>
+    </div>
+</footer>
+<script type="text/javascript">
+
+    function search() {
+        let filter = document.getElementById('find').value.toUpperCase();
+        let items = document.querySelectorAll('.product');
+        items.forEach(item => {
+            let productName = item.getElementsByTagName('h5')[0].innerText.toUpperCase();
+            if (productName.indexOf(filter) > -1) {
+                item.style.display = "";
+            } else {
+                item.style.display = "none";
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
